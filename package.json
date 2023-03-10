@@ -1,0 +1,27 @@
+{
+  "name": "Event-Space",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrShakeit/Event-Space.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrShakeit/Event-Space/issues"
+  },
+  "homepage": "https://github.com/MrShakeit/Event-Space#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "express-winston": "^4.2.0",
+    "winston": "^3.8.2"
+  }
+}
