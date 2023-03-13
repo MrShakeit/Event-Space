@@ -1,4 +1,5 @@
 import { CommonRoutesConfig } from "../common/common.routes.config";
+import UserModel from "../repository/user.model";
 import express from "express";
 
 export class UsersRoutes extends CommonRoutesConfig {
@@ -13,6 +14,7 @@ export class UsersRoutes extends CommonRoutesConfig {
         res.status(200).send("List of users");
       })
       .post((req: express.Request, res: express.Response) => {
+        UserModel.create({ firstName: "Event", lastName: "Space" })
         res.status(200).send("Post to users");
       });
 
